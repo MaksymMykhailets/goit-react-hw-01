@@ -1,7 +1,8 @@
 import Profile from '../Profile/Profile';
 import FriendList from '../Friends/Friends';
-import userData from '/src/userData.json';
-import friends from '/src/friends.json';
+import userData from '../../userData.json';
+import friends from '../../friends.json';
+import './App.module.css';
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
         username={userData.username}
         tag={userData.tag}
         location={userData.location}
-        image={userData.image}
+        image={userData.avatar}
         stats={userData.stats}
       />
       <FriendList friends={friends} />

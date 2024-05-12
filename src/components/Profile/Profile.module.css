@@ -1,0 +1,59 @@
+.container,
+.wrapper,
+.bgWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.container {
+  padding: 20px;
+  width: 400px;
+  height: 550px;
+  gap: 30px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.image {
+  width: 180px;
+  height: 180px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: #141414;
+}
+
+.name {
+  margin: 15px 0;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.tag {
+  color: gray;
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+.bgWrapper {
+  flex-grow: 1;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  border-radius: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.item {
+  font-size: 18px;
+  display: flex;
+  gap: 8px;
+}
